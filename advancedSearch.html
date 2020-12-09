@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>
+            Advanced Search
+        </title>
+        <link rel="stylesheet" href="styles.css">
+        <meta name="viewport" content="width = device-width+, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <header>
+            <a href="index.html" class="googlelink">
+                <span style="color:RGB(66,133,244)">G</span>
+                <span style="color:RGB(219,68,55)">o</span>
+                <span style="color:RGB(244,160,0)">o</span>
+                <span style="color:RGB(66,133,244)">g</span>
+                <span style="color:RGB(15,157,88)">l</span>
+                <span style="color:RGB(219,68,55)">e</span>
+            </a>
+            <h3 class="advsearchtitle">Advanced Search</h3>
+        </header>
+        
+        <form action="https://google.com/search">
+            <table class="advsearch">
+                <tr>
+                    <th>Find pages with...</th>
+                    <th></th>
+                    <th>To do this in the search box</th>
+                </tr>
+                <tr>
+                    <td><label for="as_q" class="advsearch">all these words:</label></td>
+                    <td><input type="text" id="as_q" name="as_q" class="advinput"></td>
+                    <td><label for="as_q" class="advsearch">Type the important words:  tricolor rat terrier</label></td>
+                </tr>
+                <tr>
+                    <td><label for="as_epq" class="advsearch">this exact word or phrase:</label></td>
+                    <td><input type="text" id="as_epq" name="as_epq" class="advinput"></td>
+                    <td><label for="as_epq" class="advsearch">Put exact words in quotes:  "rat terrier"</label></td>   
+                </tr>
+                <tr>
+                    <td><label for="as_oq" class="advsearch">any of these words:</label></td>
+                    <td><input type="text" id="as_oq" name="as_oq" class="advinput"></td>
+                    <td><label for="as_oq" class="advsearch">Type OR between all the words you want:<br> miniature OR standard</label></td>
+                </tr>
+                <tr>
+                    <td><label for="as_eq" class="advsearch">none of these words:</label></td>
+                    <td><input type="text" id="as_eq" name="as_eq" class="advinput"></td>
+                    <td><label for="as_eq" class="advsearch">Put 2 periods between the numbers and add a unit of measure:<br> 10..35 lb, $300..$500, 2010..201</label></td>
+                </tr>               
+            </table>
+            
+            
+            <input type="submit" value="Google Search" class="advbutton"> 
+
+        </form>
+    </body>
+</html>
